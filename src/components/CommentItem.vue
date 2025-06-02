@@ -212,7 +212,6 @@ const handleDelete = async () => {
       ElMessage.error(response.message || '删除失败')
     }
   } catch (error) {
-    // 用户取消删除
   }
 }
 
